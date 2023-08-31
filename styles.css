@@ -1,0 +1,66 @@
+body{
+    background-image: url("Images/Untitled design.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+.header{
+    margin-left:20px;
+    margin-top: 40px;
+    font-family: Poppins;
+    color: white;
+    font-size: 60px;
+}
+
+.text{
+    margin-top: 10px;
+    font-size:40px;
+    font-family: kanit;
+
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+.item1,.item2,.item3{
+    padding:30px;
+}
+
+.heroheader{
+    color: white;
+    font-family: Poppins;
+    font-size:40px;
+}
+
+.imagetext{
+    color: white;
+    font-family: Poppins;
+    font-size:40px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+.imagedesc{
+    font-family:kanit;
+    font-size:30px;
+    color: white;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.herocontainer{
+    display:flex;
+    justify-content: space-evenly;
+}
+@media(max-width: 1000px){
+    .container{
+        flex-direction:column;
+    }
+    .herocontainer{
+        flex-direction: column;
+    }
+}
+
+
+
